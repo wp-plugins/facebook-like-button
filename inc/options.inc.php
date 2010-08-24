@@ -60,22 +60,6 @@ foreach($RecName as $RecN){
 	add_option('fpp_rec_'.$RecN, '');
 	}
 
-/*
-Add Live Stream Options
-*/
-
-$LiveName = array(
-
-      'appid'     => 'appid',
-	  'width'     => 'width',
-	  'height'    => 'height',
-	  'wid_title' => 'wid_title'
-);
-
-foreach($LiveName as $LiveN)
-{
-   add_option('fpp_live_'.$LiveN, '');	
-	}
 
 /*
 Add locale and fonts options by Anty
