@@ -35,7 +35,7 @@ Mulitple language support, you can change the button language to your language i
 == Changelog ==
 
 = 5.1 =
-* Activation Bug Fixed.
+* Activiation Bug Fixed.
 
 = 5.0 =
 * Admin layout has been redesigned.
@@ -222,4 +222,4 @@ Bugs Fixed.
 * Customizable Recommendations Widget Layout Settings.
 
 = 5.1 =
-* Activation Bug Fixed.
+* Activiation Bug Fixed.

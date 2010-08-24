@@ -2,16 +2,20 @@
 
 /*Recommendations Admin Layout*/
 
-	include_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/rec_fill.php");
+include_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/rec_fill.php");
 
 $block = '
 
 <div class="wrap">
 
 <script src="'. plugins_url('js/jquery.js',__FILE__).'" type = "text/javascript"></script>
+<script src="'. plugins_url('js/prettyLoader.js',__FILE__).'" type = "text/javascript"></script>
 <script src="'. plugins_url('js/rec.js',__FILE__).'" type = "text/javascript"></script>
+<script src="'. plugins_url('js/facebox.js',__FILE__).'" type = "text/javascript"></script>
 
 <link rel="stylesheet" href="'. plugins_url('css/rec_style.css',__FILE__).'" type="text/css" >
+<link rel="stylesheet" href="'. plugins_url('css/facebox.css',__FILE__).'" type="text/css" >
+<link rel="stylesheet" href="'. plugins_url('css/prettyLoader.css',__FILE__).'" type="text/css" >
 
   
 <!-- <div id="SDK"></div> --!>

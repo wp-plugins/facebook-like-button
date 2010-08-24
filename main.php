@@ -58,7 +58,6 @@ add_option("fblikes_locale", "default");
 add_option("fblikes_font", "");
 add_action('admin_menu', 'FB_Admin_Box');
 add_action('admin_menu', 'Add_Rec_Admin');
-add_action('admin_menu', 'Add_Live_Admin');
 add_filter('the_content', 'Add_Like_Button');
 
 add_shortcode('fb_like', 'Short_Button');

@@ -21,7 +21,7 @@ function Rec_Page(){
 	}
 	
 	
-function Add_Rec_Admin(){
+function Add_Live_Admin(){
 
 	add_submenu_page("main.php", 'Recommendations Settings', 'Recommendations', 8, basename(__file__),
         "Rec_Page");
