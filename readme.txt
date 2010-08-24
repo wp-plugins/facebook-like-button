@@ -4,14 +4,16 @@ Donate link: https://www.alertpay.com/PayProcess.aspx?ATA8eHNoc21gdHBeb2AlPDx2dl
 Tags: Share, Facebook, Button, Like
 Requires at least: 2.0.2
 Tested up to: 3.1
-Stable tag: 4.5
+Stable tag: 5.1
 
-Add the new Facebook Like button to your wordpress blog.
+Add the new Facebook Like button and Facebook Recommendations widget to your wordpress blog.
 
 == Description ==
 
 Add Facebook Like Button to your wordpress blog with a lot of customization options, And you can preview the settings at real-time in the settings section.
 Add the button count, or normal by using short cuts [fb_like] [fb_count].
+
+Add Facebook Recommendations Widget to your blog sidebar or to anywhere using this shortcut [fb_rec].
 
 Mulitple language support, you can change the button language to your language in 3.4! Feature added by anty http://anty.at
 
@@ -23,11 +25,25 @@ Mulitple language support, you can change the button language to your language i
 
 
 == Screenshots ==
-1. Setting Section with live preview.
+1. Like Button Settings Section.
 2. Inside the post.
+3. Recommendations Widget.
+4. Facebook Recommendations Settings Section.
+
 
 
 == Changelog ==
+
+= 5.1 =
+* Activation Bug Fixed.
+
+= 5.0 =
+* Admin layout has been redesigned.
+* Facebook Recommendations has been added.
+* Facebook Recommendations sidebar widget has been added.
+* Facebook Recommendations shortcut [fb_rec] has been added.
+* Customizable Recommendations Widget Title.
+* Customizable Recommendations Widget Layout Settings.
 
 = 4.5 =
 * Admin layout has been redesigned.
@@ -196,3 +212,14 @@ Bugs Fixed.
 
 = 4.5 =
 * Admin layout has been redesigned.
+
+= 5.0 =
+* Admin layout has been redesigned.
+* Facebook Recommendations has been added.
+* Facebook Recommendations sidebar widget has been added.
+* Facebook Recommendations shortcut [fb_rec] has been added.
+* Customizable Recommendations Widget Title.
+* Customizable Recommendations Widget Layout Settings.
+
+= 5.1 =
+* Activation Bug Fixed.

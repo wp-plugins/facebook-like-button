@@ -2,14 +2,14 @@
 
 /*
 Plugin Name: Facebook Like
-Plugin URI: http://blog.ahmedgeek.com/facebook-like-button-for-wordpress-v4
-Description: Add the facebook like button for your blog. Change the button layout, use XFBML or iFrame and much more just in one plugin. Added in 3.4 multiple language support and you can change the font.
-Version: 4.5
+Plugin URI: http://blog.ahmedgeek.com/facebook-like-button-v5-0-major-update
+Description: Add the new Facebook Like button and Facebook Recommendations widget to your wordpress blog.
+Version: 5.1
 Author: Ahmed Hussein
 Author URI: http://www.ahmedgeek.com
 License: GPL2
 
-Translation and Fonts developed and added by Anty (mail@anty.at) http://anty.at
+Translation and Fonts for the like button developed and added by Anty (mail@anty.at) http://anty.at
 
 Copyright 2010  Facebook Like Button  (email : me@ahmedgeek.com)
 
@@ -38,21 +38,34 @@ require_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/update_optio
 require_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/upgrade.inc.php");
 require_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/activation.php");
 require_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/get_key.php");
+include_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/rec_page.php");
+include_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/rec_widget.php");
+include_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/rec_wid_layout.php");
+include_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/live_page.php");
+
 
 function FB_Admin_Box()
 {
     add_menu_page('Facebook Like', 'Facebook Like', 8, basename(__file__), '' , plugins_url('icon.png',__FILE__));
-    add_submenu_page(basename(__file__), 'Settings', 'Settings', 8, basename(__file__),
+    add_submenu_page(basename(__file__), 'Like Button Settings', 'Like Button', 8, basename(__file__),
         "FB_Admin_Cont");
 
 }
 
+
+
 add_option("fblikes_locale", "default");
 add_option("fblikes_font", "");
 add_action('admin_menu', 'FB_Admin_Box');
+add_action('admin_menu', 'Add_Rec_Admin');
+add_action('admin_menu', 'Add_Live_Admin');
 add_filter('the_content', 'Add_Like_Button');
+
 add_shortcode('fb_like', 'Short_Button');
 add_shortcode('fb_count', 'Count_Button');
+
+add_shortcode('fb_rec', array('Widget_Layout', 'Layout'));
+
 add_action('wp_head', 'Add_Site_Name');
 register_activation_hook( __FILE__, 'Upgrade_Latest' );
 ActivationRobot(Activate());

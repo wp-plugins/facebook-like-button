@@ -239,7 +239,7 @@ $(document).ready(function(){
 			</tr>
 			<tr>
 			<td>Amount:</td>
-			<!–<input type="hidden" name="amount" value="5.00">–>
+			
 			<td><input type="text" name="amount" value="5.00" size="10"></td>
 			<input type="hidden" name="detail1_description" value="Donation To Help Facebook Like Button for WP">
 			
@@ -270,6 +270,7 @@ $(document).ready(function(){
 	
 			</div>
 		</div>
+		
               <form action = "" method = "POST" id="form">
 
 			 
