@@ -42,7 +42,8 @@ $fblikes_fonts = array("Default"        => "",
 			'arch'   => 'arch',
 			'enimg'  => 'enimg',
 			'align'  => 'align',
-			'send'   => 'send'
+			'send'   => 'send',
+			'social' => 'social'
 			
                
 			   );
@@ -96,6 +97,7 @@ foreach($Names as $Na){ //Get Options Names
 	$enable_image = ($Value['enimg'] == true) ? '' : 'disabled="disabled"';
 	$check_image  = ($Value['enimg'] == true) ? 'checked="checked"' : '';
 	$send  = ($Value['send'] == 'true') ? 'checked="checked"' : '';
+	$social  = ($Value['social'] == 'true') ? 'checked="checked"' : '';
 	
 	
 	/*Include jquery and the live preview main file*/

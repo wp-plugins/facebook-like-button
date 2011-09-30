@@ -4,7 +4,7 @@ Donate link: http://www.ahmedgeek.com/
 Tags: Share, Facebook, Button, Like
 Requires at least: 2.5
 Tested up to: 3.2.1
-Stable tag: 5.9.4.1
+Stable tag: 5.9.5
 
 Add the new Facebook Like button and Facebook Recommendations widget to your wordpress blog.
 
@@ -33,6 +33,10 @@ Mulitple language support, you can change the button language to your language i
 
 
 == Changelog ==
+
+= 5.9.5 =
+* Enable or Disable Google Social Tracking.
+* og:description bug fixed.
 
 = 5.9.4.1 =
 * Google Analytics Social Interaction Tracking Support.
@@ -303,3 +307,7 @@ Bugs Fixed.
 
 = 5.9.4.1 =
 * Google Analytics Social Interaction Tracking Support.
+
+= 5.9.5 =
+* Enable or Disable Google Social Tracking.
+* og:description bug fixed.

@@ -28,6 +28,7 @@ $Names = array(
 			'dimage' => 'dimage',
 			'enimg'  => 'enimg',
 			'align'  => 'align',
+			'social'  => 'social',
 			'add'    => 'add'
 			
                

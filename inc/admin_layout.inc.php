@@ -389,6 +389,14 @@ $(document).ready(function(){
 			    <input type="checkbox" id="send" name="send" value="true" '.$send.'/> <font color="red" size="-2"> XFBML Only</font>
 			  </td>
               </tr>
+              <tr>
+               <td>
+              Enabled Social Tracking:
+              </td>
+              <td>
+			    <input type="checkbox" id="send" name="social" value="true" '.$social.'/> <font color="red" size="-2"> This Will Enable TabPress Social Tracking</font>
+			  </td>
+              </tr>
 			  
 			  
               <tr><td><label for="fblikes_locale">Language:</label></td>

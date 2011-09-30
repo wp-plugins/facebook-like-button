@@ -58,7 +58,8 @@ if (isset($_POST['sub'])) {
 			'17'  => $cat ,
 			'18'  => $arch,
 			'19'  => $align,
-			'20'  => $_POST['send']
+			'20'  => $_POST['send'],
+			'21'  => $_POST['social']
 	
 	               );
 	$Names = array(
@@ -83,11 +84,12 @@ if (isset($_POST['sub'])) {
 			'17'  => 'cat',
 			'18'  => 'arch',
 			'19'  => 'align',
-			'20'  => 'send'
+			'20'  => 'send',
+			'21'  => 'social'
 	
 	               );
 				   
-	for($i = 0; $i <=20 ; $i++){
+	for($i = 0; $i <=21 ; $i++){
 			
 		update_option("fb_like_".$Names[$i], $Values[$i]);
 
