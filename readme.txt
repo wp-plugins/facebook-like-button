@@ -4,7 +4,7 @@ Donate link: http://www.ahmedgeek.com/
 Tags: Share, Facebook, Button, Like
 Requires at least: 2.5
 Tested up to: 3.2.2
-Stable tag: 5.9.5.2
+Stable tag: 5.9.5.3
 
 Add the new Facebook Like button and Facebook Recommendations widget to your wordpress blog.
 
@@ -33,6 +33,10 @@ Mulitple language support, you can change the button language to your language i
 
 
 == Changelog ==
+
+
+= 5.9.5.3 =
+* Fast Bug Fix.
 
 = 5.9.5.2 =
 * Wedding Message.
@@ -317,3 +321,6 @@ Bugs Fixed.
 
 = 5.9.5.2 =
 * Wedding Message.
+
+= 5.9.5.3 =
+* Fast Bug Fix.

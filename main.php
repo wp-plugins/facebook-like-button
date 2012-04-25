@@ -4,7 +4,7 @@
 Plugin Name: Facebook Like
 Plugin URI: http://www.ahmedgeek.com/facebook-like-button-v5-0-major-update
 Description: Add the new Facebook Like button and Facebook Recommendations widget to your wordpress blog.
-Version: 5.9.5.1
+Version: 5.9.5.3
 Author: Ahmed Hussein
 Author URI: http://www.ahmedgeek.com
 License: GPL2
@@ -60,7 +60,6 @@ add_option("fbGeekWedding", 0);
 add_option("fblikes_font", "");
 add_action('admin_menu', 'FB_Admin_Box');
 add_action('admin_menu', 'Add_Rec_Admin');
-add_action('admin_menu', array('Timeline', 'adminHook'));
 add_filter('the_content', 'Add_Like_Button');
 
 add_shortcode('fb_like', 'Short_Button');
