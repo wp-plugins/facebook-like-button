@@ -1,5 +1,5 @@
 === Facebook Like Button===
-Contributors: Ahmed Hussein
+Contributors: ahmedgeek
 Donate link: http://www.indiegogo.com/TheGeekWedding/x/2240075
 Tags: Share, Facebook, Button, Like
 Requires at least: 2.5
