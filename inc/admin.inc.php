@@ -108,10 +108,6 @@ foreach($Names as $Na){ //Get Options Names
 	
 	/*Get the layout*/
 	 require_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/admin_layout.inc.php");
-	
-	 require_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/activation.php");
-	 
-	
 	 
     echo $Live.$Layout;
 
