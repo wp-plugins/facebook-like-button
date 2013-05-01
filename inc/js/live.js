@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(document).ready(function(){
+jQuery(document).ready(function($){
 	  
 	  var appid = $("#appid").val();
 		  var xfbml =  ($("#xfbml").is(':checked')) ? true : false;

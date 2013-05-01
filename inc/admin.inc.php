@@ -102,9 +102,7 @@ foreach($Names as $Na){ //Get Options Names
 	
 	/*Include jquery and the live preview main file*/
     
-	$Live  = 
-            "<script src='". plugins_url('js/jquery.js',__FILE__)."' type = 'text/javascript'></script>
-             <script src='". plugins_url('js/live.js',__FILE__)."' type = 'text/javascript'></script>"; 
+	$Live  = "<script src='". plugins_url('js/live.js',__FILE__)."' type = 'text/javascript'></script>"; 
 	
 	/*Get the layout*/
 	 require_once(ABSPATH . "wp-content/plugins/facebook-like-button/inc/admin_layout.inc.php");

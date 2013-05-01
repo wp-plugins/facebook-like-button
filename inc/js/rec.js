@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(document).ready(function(){
+jQuery(document).ready(function($){
 
 		// Define Vars
 	    var domain = $("#domain").val();

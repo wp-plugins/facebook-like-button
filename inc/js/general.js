@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(document).ready(function(){
+jQuery(document).ready(function($){
 	
 	if($("#uni_op").is(":checked")){
 			

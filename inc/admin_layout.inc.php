@@ -14,7 +14,7 @@ $Layout = '
 
 			 <script>
 			 
-$(document).ready(function(){
+jQuery(document).ready(function($){
 	
 			if($("#enimg").is(":checked")){
 			

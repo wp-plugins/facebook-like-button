@@ -1,6 +1,6 @@
 //Saveing Process for Recommendations Page
 
-$(document).ready(function(){
+jQuery(document).ready(function($){
 	
 	$('#submit').click(function(){
 		

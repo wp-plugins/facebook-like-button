@@ -83,4 +83,8 @@ function Add_Site_Name() {
 	echo $Meta . $Title . $URL . $Admeta;
 
 }
+
+function fb_like_admin_init(){
+	wp_enqueue_script('jquery');
+}
 ?>

@@ -64,4 +64,5 @@ add_shortcode('fb_rec', array('Widget_Layout', 'Layout'));
 
 add_action('wp_head', 'Add_Site_Name');
 add_action('dbx_page_advanced', 'Add_Pages_meta_box' );
+add_action( 'admin_init', 'fb_like_admin_init' );
 ?>

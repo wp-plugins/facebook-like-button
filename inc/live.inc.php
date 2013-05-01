@@ -8,9 +8,8 @@ Descrption: Get the live preview in the admin section
     $Live  = 
 
   "
-  <script src='". plugins_url('js/jquery.js',__FILE__)."' type = 'text/javascript'></script>
   <script>
-  $(document).ready(function(){
+  jQuery(document).ready(function($){
 	  
 	  var appid = $(\"#appid\").val();
 		  var xfbml =  ($(\"#xfbml\").is(':checked')) ? true : false;

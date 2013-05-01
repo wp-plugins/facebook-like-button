@@ -36,7 +36,7 @@ class Widget_Layout
 			$Includes = '<script src="'. plugins_url('js/jquery.js',__FILE__).'" type = "text/javascript"></script>';
 			$SDK = "
 			    <script>
-					  $(document).ready(function(){
+					  jQuery(document).ready(function($){
 					
 					  var SDK  = '<div id=\"fb-root\"></div>';
 					  SDK += '<script>';
