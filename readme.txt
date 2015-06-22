@@ -1,4 +1,4 @@
-=== Facebook Like Button===
+=== (PressGraph) Facebook Like===
 Contributors: AhmedGeek
 Tags: facebook, like, button, recommendations, opengraph, seo, recommend, sharing, social, pressgraph
 Requires at least: 2.5
