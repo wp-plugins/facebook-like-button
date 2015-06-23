@@ -97,8 +97,10 @@ class manipulator{
 	
 		if(is_singular() || is_page()){
 			$postType = get_post_type(get_the_ID());
-			$supportedPostTypes = get_option("AGPressGraph_like_show_in", array());
-			
+			$supportedPostTypes = get_option("AGPressGraph_like_show_in", false);
+			if(!$supportedPostTypes){
+				$supportedPostTypes = array();
+			}
 			if( in_array($postType, $supportedPostTypes)){
 			$metaImage = get_post_meta(get_the_ID(), "AGLBCustomOGImage", true);
 			$defaultImage  = get_option("AGPressGraph_like_dimage", false);
@@ -116,7 +118,19 @@ class manipulator{
 	
 			<?php			
 			}
+		
 		}		
+	}
+	
+	
+	/**
+	 * addOpenGraphHTMLAttributes function.
+	 * 
+	 * @access public
+	 * @return void
+	 */
+	public function addOpenGraphHTMLAttributes(){
+		return 'xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml"';
 	}
 			
 }

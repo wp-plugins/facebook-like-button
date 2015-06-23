@@ -28,6 +28,8 @@ class coreManager{
 		add_action("wp_head", array("AGPressGraph\manipulator", "openGraphData"));
 		
 		add_filter( 'the_content', array("AGPressGraph\manipulator", "insertTheButtonForContent"));
+		add_filter( 'language_attributes', array("AGPressGraph\manipulator", "addOpenGraphHTMLAttributes") );
+		
 		add_action("init", array("AGPressGraph\TheButtons", "addButtonsShortcodes"));
 		
 		if(!get_option("AGPressGraph_like_didUpdateOptions", false)){

@@ -45,6 +45,9 @@ You can customize the shortcode (button) using the following attributes:
 
 == Changelog ==
 
+= 6.0.1 =
+* Minor Bug Fix
+
 = 6.0.0 =
 * Completely rewritten using object oriented php.
 * WordPress Settings API implementation.
@@ -379,3 +382,6 @@ Bugs Fixed.
 * Enhanced security.
 * Enhanced locale support (now uses default website locale).
 * New Shortcode.
+
+= 6.0.1 =
+* Minor Bug Fix
