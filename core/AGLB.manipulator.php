@@ -104,7 +104,7 @@ class manipulator{
 			if( in_array($postType, $supportedPostTypes)){
 			$metaImage = get_post_meta(get_the_ID(), "AGLBCustomOGImage", true);
 			$defaultImage  = get_option("AGPressGraph_like_dimage", false);
-			$postThumbnail = wp_get_attachment_thumb_url(get_post_thumbnail_id(get_the_ID()));
+			$postThumbnail = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()));
 			$ogImage = (!empty($metaImage) ? $metaImage : ($postThumbnail !== false ? $postThumbnail : $defaultImage ));
 			
 			?>
